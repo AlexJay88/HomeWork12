@@ -1,3 +1,5 @@
+package pro.sky.java.course1.homework12;
+
 public class Author {
     private String name;
     private String surname;
