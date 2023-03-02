@@ -17,7 +17,6 @@ public class Book {
         return this.name;
     }
 
-
     public int getYear(){
 
         return this.year;

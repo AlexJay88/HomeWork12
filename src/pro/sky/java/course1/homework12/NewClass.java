@@ -17,6 +17,7 @@ public class NewClass {
         System.out.println("Книга " + newBook.name + ", год - " + newBook.year + ", автор " + newBook.authorSurname);
     }
 
+
 public void setYear(int year){
         this.year = year;
 }

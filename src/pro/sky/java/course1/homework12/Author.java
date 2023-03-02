@@ -15,7 +15,6 @@ public class Author {
         return this.name;
     }
 
-
     public String getSurname(){
 
         return this.surname;
