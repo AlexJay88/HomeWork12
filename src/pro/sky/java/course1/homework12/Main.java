@@ -15,7 +15,7 @@ public class Main {
         System.out.println("WarAndPeace.name = " + WarAndPeace.getName());
         System.out.println("WarAndPeace.year = " + WarAndPeace.getYear());
         System.out.println("WarAndPeace.author = " + WarAndPeace.getAuthor());
-        WarAndPeace.setYear(1868);
+        WarAndPeace.setYear(1869);
         System.out.println("WarAndPeace.getYear() = " + WarAndPeace.getYear());
 
 
@@ -28,7 +28,6 @@ public class Main {
        App lolita = new App("Lolita","Nabokov");
         System.out.println("lolita.bookTitle = " + lolita.getBookTitle());
         System.out.println("lolita.author = " + lolita.getAuthor());
-
 
 
         App  leviathan = new App("leviathan","Hobbes");
