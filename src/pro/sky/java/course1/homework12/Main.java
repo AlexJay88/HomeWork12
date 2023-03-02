@@ -30,7 +30,6 @@ public class Main {
         System.out.println("lolita.author = " + lolita.getAuthor());
 
 
-
         App  leviathan = new App("leviathan","Hobbes");
         System.out.println("leviathan.bookTitle = " + leviathan.getBookTitle());
         System.out.println("leviathan.author = " + leviathan.getAuthor());

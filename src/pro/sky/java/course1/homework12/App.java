@@ -5,7 +5,6 @@ public class App {
     private String bookTitle;
      private String author;
 
-
     public   App (String bookTitle,String author) {
         this.bookTitle=bookTitle;
         this.author=author;
