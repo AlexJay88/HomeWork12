@@ -15,7 +15,7 @@ public class Main {
         System.out.println("WarAndPeace.name = " + WarAndPeace.getName());
         System.out.println("WarAndPeace.year = " + WarAndPeace.getYear());
         System.out.println("WarAndPeace.author = " + WarAndPeace.getAuthor());
-        WarAndPeace.setYear(1868);
+        WarAndPeace.setYear(1869);
         System.out.println("WarAndPeace.getYear() = " + WarAndPeace.getYear());
 
 
