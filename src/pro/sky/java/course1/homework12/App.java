@@ -1,21 +1,22 @@
+
+
 package pro.sky.java.course1.homework12;
 
 public class App {
 
     private String bookTitle;
-     private String author;
+    private String author;
 
     public   App (String bookTitle,String author) {
         this.bookTitle=bookTitle;
         this.author=author;
     }
 
-
-  public String getBookTitle(){
+    public String getBookTitle(){
         return this.bookTitle;
-  }
+    }
 
-        public String getAuthor(){
+    public String getAuthor(){
         return this.author;
-        }
+    }
 }

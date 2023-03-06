@@ -7,36 +7,29 @@ public class Main {
 
 
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
+
+            Author LevTolstoy = new Author("Lev","Tolstoy");
+            System.out.println("LevTolstoy.name = " + LevTolstoy.getName());
+            System.out.println("LevTolstoy.surname = " + LevTolstoy.getSurname());
 
 
-        Book WarAndPeace = new Book("WarAndPeace", 1867," Lev Tolstoy");
-        System.out.println("WarAndPeace.name = " + WarAndPeace.getName());
-        System.out.println("WarAndPeace.year = " + WarAndPeace.getYear());
-        System.out.println("WarAndPeace.author = " + WarAndPeace.getAuthor());
-        WarAndPeace.setYear(1869);
-        System.out.println("WarAndPeace.getYear() = " + WarAndPeace.getYear());
+            Book WarAndPeace=new Book("WarAndPeace",1867,LevTolstoy);
+            System.out.println("WarAndPeace.author = " + WarAndPeace.author.getName()+WarAndPeace.author.getSurname());
+            System.out.println("WarAndPeace.name = " + WarAndPeace.getName());
+            System.out.println("WarAndPeace.year = " + WarAndPeace.getYear());
+            WarAndPeace.setYear(1869);
+            System.out.println("WarAndPeace.getYear() = " + WarAndPeace.getYear());
 
 
-        Author LevTolstoy = new Author("Lev", "Tolstoy");
-        System.out.println("LevTolstoy.name = " + LevTolstoy.getName());
-        System.out.println("LevTolstoy.surname = " + LevTolstoy.getSurname());
+            App lolita = new App("Lolita", "Nabokov");
+            System.out.println("lolita.bookTitle = " + lolita.getBookTitle());
+            System.out.println("lolita.author = " + lolita.getAuthor());
 
 
-
-       App lolita = new App("Lolita","Nabokov");
-        System.out.println("lolita.bookTitle = " + lolita.getBookTitle());
-        System.out.println("lolita.author = " + lolita.getAuthor());
-
-
-        App  leviathan = new App("leviathan","Hobbes");
-        System.out.println("leviathan.bookTitle = " + leviathan.getBookTitle());
-        System.out.println("leviathan.author = " + leviathan.getAuthor());
+            App leviathan = new App("leviathan", "Hobbes");
+            System.out.println("leviathan.bookTitle = " + leviathan.getBookTitle());
+            System.out.println("leviathan.author = " + leviathan.getAuthor());
 
 
-    }}
-
-
-
-
-
+        }}

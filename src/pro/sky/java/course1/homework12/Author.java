@@ -1,19 +1,26 @@
 package pro.sky.java.course1.homework12;
 
 public class Author {
-    private String name;
-    private String surname;
+     String name;
+    String  surname;
 
 
-    public   Author(String name,String surname){
-        this.name=name;
-        this.surname=surname;
+
+
+    public  Author (String name, String surname) {
+
+        this.name = name;
+        this.surname = surname;
+
+
+
+
     }
-
     public String getName(){
 
         return this.name;
     }
+
 
     public String getSurname(){
 
