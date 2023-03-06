@@ -2,7 +2,6 @@ package pro.sky.java.course1.homework12;
 
 public class NewClass {
 
-
       String name;
        int year;
      String authorSurname;

@@ -13,7 +13,6 @@ public class Main {
             System.out.println("LevTolstoy.name = " + LevTolstoy.getName());
             System.out.println("LevTolstoy.surname = " + LevTolstoy.getSurname());
 
-
             Book WarAndPeace=new Book("WarAndPeace",1867,LevTolstoy);
             System.out.println("WarAndPeace.author = " + WarAndPeace.author.getName()+WarAndPeace.author.getSurname());
             System.out.println("WarAndPeace.name = " + WarAndPeace.getName());

@@ -3,7 +3,6 @@
 package pro.sky.java.course1.homework12;
 
 public class App {
-
     private String bookTitle;
     private String author;
 

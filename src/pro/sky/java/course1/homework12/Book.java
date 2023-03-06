@@ -1,10 +1,10 @@
 package pro.sky.java.course1.homework12;
 
 public class Book {
-    String name;
-    int year;
+  private   String name;
+    private int year;
 
-    Author author;
+     Author author;
 
 public Book(String name,int year,Author author){
      this.name=name;
@@ -23,9 +23,7 @@ public Book(String name,int year,Author author){
         return this.year;
 
     }
-    public Author getAuthor(){
-    return this.author;
-    }
+
     public void setYear(int year) {
         this.year= year;
 
