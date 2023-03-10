@@ -18,11 +18,6 @@ public class Main {
 
 
 
-
-
-
-
-
         Book WarAndPeace = new Book("WarAndPeace", 1867 , LevTolstoy);
         System.out.println("WarAndPeace.author =  " + WarAndPeace.author.getName() + WarAndPeace.author.getSurname());
         System.out.println("WarAndPeace.name = " + WarAndPeace.getName());
@@ -32,12 +27,10 @@ public class Main {
         System.out.println(WarAndPeace);
         Book b = new Book("WarAndPeace",1867,LevTolstoy);
         Book b2 = new Book("WarAndPeace",1867,LevTolstoy);
-
+        Book b3 = b;
 
         System.out.println(b.equals(b2));
-
-
-
+        System.out.println(b.equals(b3));
 
 
 
