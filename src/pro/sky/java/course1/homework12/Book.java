@@ -1,10 +1,11 @@
 package pro.sky.java.course1.homework12;
 
 import java.time.Year;
+import java.util.Objects;
 
 public class Book {
-    public String name;
-    public int year;
+    private String name;
+    private int year;
 
     Author author;
 
@@ -26,9 +27,8 @@ public class Book {
         return this.year;
 
     }
-    public Author getAuthor(){
-         return this.author;
-    }
+
+
 
     public void setYear(int year) {
         this.year = year;
@@ -45,42 +45,17 @@ public class Book {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (o == null || getClass() != o.getClass()) {
-            return false;
-        }
-
-        Book WarAndPeace = (Book) o;
-
-        if (getYear() != WarAndPeace.getYear()) {
-            return false;
-
-        }
-        if (getName() != WarAndPeace.getName()) {
-            return false;
-        }
-
-        if (getAuthor() != WarAndPeace.getAuthor()) {
-            return false;
-        }
-        return getName() != null
-                ? getName().equals(WarAndPeace.getName())
-                : WarAndPeace.getName() == null;
-
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return year == book.year && name.equals(book.name) && author.equals(book.author);
     }
-
-
 
     @Override
     public int hashCode() {
-        return java.util.Objects.hash(name, year,author);
+        return Objects.hash(name, year, author);
     }
-
 }
-
-
 
 
 
